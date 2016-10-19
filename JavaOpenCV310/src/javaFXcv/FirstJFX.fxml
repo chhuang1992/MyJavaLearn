@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane prefHeight="258.0" prefWidth="328.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="javaFXcv.FXController">
+  <!-- TODO Add Nodes -->
+  <bottom>
+    <Button fx:id="start_btn" alignment="CENTER" mnemonicParsing="false" onAction="#startCamera" text="StartCamera" textAlignment="CENTER" BorderPane.alignment="CENTER">
+      <BorderPane.margin>
+        <Insets bottom="6.0" />
+      </BorderPane.margin>
+    </Button>
+  </bottom>
+  <center>
+    <ImageView fx:id="currentFrame" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
+  </center>
+</BorderPane>

@@ -1,0 +1,7 @@
+core.jar
+gluegen-rt.jar
+gluegen-rt-natives-windows-amd64.jar
+jogl-all-natives-windows-amd64.jar"
+jogl-all.jar
+eclipse/plugins/org.eclipse.fx.ide.css.jfx8_2.3.0.201603030809.jar
+opencv-310.jar
