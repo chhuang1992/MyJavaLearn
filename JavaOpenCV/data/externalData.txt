@@ -1,0 +1,4 @@
+opencv/sources/data/haarcascades/*;
+opencv/sources/data/hogcascades/*;
+opencv/sources/data/lbpcascades/*;
+opencv/sources/data/vec_files/*;
